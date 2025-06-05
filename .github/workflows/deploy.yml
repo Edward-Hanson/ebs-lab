@@ -3,7 +3,7 @@ name: Deploy Spring Boot App to Elastic Beanstalk
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
